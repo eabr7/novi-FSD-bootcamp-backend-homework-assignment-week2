@@ -72,10 +72,10 @@ Maak een `Customer` klasse.
 Deze klasse heeft 2 attributen: 
 - name
 - supermarket  
-De name bul je in de constructor, maar de superMarket niet. 
+- 
+De name vul je in via de constructor, maar de superMarket niet. 
 
 Voor superMarket maak je een `goToSuperMarket` methode met een parameter van `SuperMarket superMarket` en in de body komt `this.superMarket = superMarket`. 
-
 
 ### Stap 6
 Verder heeft Customer een `buyItem` methode. Deze is anders dan de buyItem-methode in SuperMarket. 
