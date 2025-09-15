@@ -8,7 +8,7 @@ Je hebt deze week geleerd over methodes, klassen en de if-statement. In deze opd
 
 In deze opdracht gaan we shoppen bij een supermarkt.
 Om dat voor elkaar te krijgen, hebben we een `SuperMarket`-klasse, een `Product`-klasse een een `Customer`-klasse nodig.
-In de `Main`-klasse gaan we een `Scanner`-object maken waarmee je de gebruiker vraagt welk product deze wil kopen en hoeveel.
+In de `Main`-klasse gaan we naast instanties van deze klassen, ook een `Scanner`-object maken waarmee je de gebruiker vraagt welk product deze wil kopen en hoeveel.
 Er moet natuurlijk ook betaald worden, dus we laten de gebruiker ook even weten wat het geheel dan wel kost.
 Als de gebruiker meer wil kopen dan wat de winkel op voorraad heeft, dan kan dat natuurlijk niet, dus dat laten we de gebruiker dan weten.
 
