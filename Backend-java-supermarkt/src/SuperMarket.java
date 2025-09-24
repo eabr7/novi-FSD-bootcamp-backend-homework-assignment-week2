@@ -11,7 +11,7 @@ public class SuperMarket {
         this.toiletPaper = toiletPaper;
     }
 
-    public void buyItem(Product product, int amount) {
+    private void buyItem(Product product, int amount) {
        double totalPrice = amount * product.price;
 
         if (amount <= product.amount) {
@@ -21,6 +21,23 @@ public class SuperMarket {
             System.out.println("You cannot buy " + amount + " " + product.name + " we only have " + product.amount + " " + product.name + " in stock.");
         }
     }
+
+    public void buyBread (int amount) {
+        buyItem(this.bread, amount);
+    }
+
+    public void buyFruit (int amount) {
+        buyItem(this.fruit, amount);
+    }
+
+    public void buyCheese (int amount) {
+        buyItem(this.cheese, amount);
+    }
+
+    public void buyToiletPaper (int amount) {
+        buyItem(this.toiletPaper, amount);
+    }
+
 }
 
 
