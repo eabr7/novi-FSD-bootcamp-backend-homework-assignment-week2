@@ -14,7 +14,7 @@ public class Customer {
         String bread = "bread";
         String fruit = "fruit";
         String cheese = "cheese";
-        String toiletPaper = "toiletPaper";
+        String toiletPaper = "toilet paper";
 
         if (productName == bread) {
             superMarket.buyBread(amount);
