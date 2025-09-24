@@ -4,3 +4,8 @@ public class Main {
     }
 }
 
+
+// Klasse:          Main
+//  Attributen:     bread, fruit, cheese, toilerPaper, superMarket, customer, scanner, name, amount
+//  Methodes:       main
+
