@@ -1,5 +1,17 @@
 public class SuperMarket {
+    Product bread;
+    Product fruit;
+    Product cheese;
+    Product toiletPaper;
+
+    public SuperMarket(Product bread, Product fruit, Product cheese, Product toiletPaper) {
+        this.bread = bread;
+        this.fruit = fruit;
+        this.cheese = cheese;
+        this.toiletPaper = toiletPaper;
+    }
 }
+
 
 
 
