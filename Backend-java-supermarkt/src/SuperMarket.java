@@ -41,8 +41,6 @@ public class SuperMarket {
 }
 
 
-
-
 // Klasse:        SuperMarket
 //  Attributen:   bread, fruit, cheese, toiletPaper
 // Methodes:      constructor(bread, fruit, cheese, toiletPaper),buyBread(amount),
