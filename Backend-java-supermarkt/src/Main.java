@@ -19,14 +19,5 @@ public class Main {
 
         customer.goToSuperMarket(superMarket);
         customer.buyItem(productName, amount);
-
     }
-
-
 }
-
-
-// Klasse:          Main
-//  Attributen:     bread, fruit, cheese, toilerPaper, superMarket, customer, scanner, name, amount
-//  Methodes:       main
-

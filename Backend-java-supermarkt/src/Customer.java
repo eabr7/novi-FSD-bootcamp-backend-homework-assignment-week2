@@ -25,14 +25,5 @@ public class Customer {
         } else if (productName == toiletPaper) {
             superMarket.buyToiletPaper(amount);
         }
-
     }
 }
-
-
-
-
-
-// Klasse:          Customer
-//  Attributen:     name, supermarket
-// Methodes:        constructor(name), goToSupermarket(supermarket), buyItem(productName, amount)

@@ -9,9 +9,3 @@ public class Product {
         this.amount = amount;
     }
 }
-
-
-
-//  Klasse:      Product
-//  Attributen:   name, price, amount
-//  Methodes:     constructor(name, price, amount)
