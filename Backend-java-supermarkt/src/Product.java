@@ -1,12 +1,12 @@
 public class Product {
-    String nameProduct = "";
-    double priceProduct = 0.0;
-    int amountProduct = 0;
+    String name = "";
+    double price = 0.0;
+    int amount = 0;
 
-    public Product(String nameProduct, double priceProduct, int amountProduct) {
-        this.nameProduct = nameProduct;
-        this.priceProduct = priceProduct;
-        this.amountProduct = amountProduct;
+    public Product(String name, double price, int amount) {
+        this.name = name;
+        this.price = price;
+        this.amount = amount;
     }
 }
 
