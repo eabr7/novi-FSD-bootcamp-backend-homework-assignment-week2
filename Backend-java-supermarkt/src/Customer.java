@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Customer {
     String name = "";
     SuperMarket superMarket;
@@ -16,13 +18,13 @@ public class Customer {
         String cheese = "cheese";
         String toiletPaper = "toilet paper";
 
-        if (productName == bread) {
+        if (Objects.equals(productName, bread)) {
             superMarket.buyBread(amount);
-        } else if (productName == fruit) {
+        } else if (Objects.equals(productName, fruit)) {
             superMarket.buyFruit(amount);
-        } else if (productName == cheese) {
+        } else if (Objects.equals(productName, cheese)) {
             superMarket.buyCheese(amount);
-        } else if (productName == toiletPaper) {
+        } else if (Objects.equals(productName, toiletPaper)) {
             superMarket.buyToiletPaper(amount);
         }
     }
